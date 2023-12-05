@@ -1,0 +1,189 @@
+-- GLOB mismatch!
+-- Using default output directory /Users/zeelsatasiya/Documents/SJSU/3rdSem/297 Special Topics/HW1/cmpe297-f23-zeel-satasiya/ns-3-allinone/ns-3.39/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- [33mEigen was not found[0m
+-- [33mHarfbuzz is required by GTK3 and was not found.[0m
+-- LibXML2 was found.
+-- [33mVisualizer requires Python bindings[0m
+-- Could NOT find Boost (missing: Boost_INCLUDE_DIR) 
+-- [33mGSL was not found. Continuing without it.[0m
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: epstopdf pdflatex latexmk convert dvipng[0m
+-- Platform doesn't support TAP and EMU features. Continuing without them.
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mfind_external_library: brite was not found. Missing headers: "Brite.h" and missing libraries: "brite".[0m
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mfind_external_library: click was not found. Missing headers: "simclick.h" and missing libraries: "nsclick click".[0m
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units are an optional feature of length.cc.  Ubuntu ships it within the libboost-dev package.  You may need to clean up the CMake cache after installing it to pass this check.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mfind_external_library: openflow was not found. Missing headers: "openflow.h" and missing libraries: "openflow".[0m
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/test
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /Users/zeelsatasiya/Documents/SJSU/3rdSem/297 Special Topics/HW1/cmpe297-f23-zeel-satasiya/ns-3-allinone/ns-3.39/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (missing dependency)[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : OFF (not requested)
+Examples                      : [32mON[0m
+File descriptor NetDevice     : [31mOFF (missing dependency)[0m
+GNU Scientific Library (GSL)  : [31mOFF (missing dependency)[0m
+GtkConfigStore                : [31mOFF (missing dependency)[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (missing dependency)[0m
+ns-3 OpenFlow Integration     : [31mOFF (missing dependency)[0m
+Netmap emulation FdNetDevice  : OFF (not requested)
+PyViz visualizer              : [31mOFF (missing dependency)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [31mOFF (missing dependency)[0m
+Tap Bridge                    : OFF (not requested)
+Tap FdNetDevice               : OFF (not requested)
+Tests                         : [32mON[0m
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+flow-monitor              internet                  internet-apps             
+lr-wpan                   lte                       mesh                      
+mobility                  netanim                   network                   
+nix-vector-routing        olsr                      point-to-point            
+point-to-point-layout     propagation               sixlowpan                 
+spectrum                  stats                     test                      
+topology-read             traffic-control           uan                       
+virtual-net-device        wifi                      wimax                     
+
+
+Modules that cannot be built:
+brite                     click                     fd-net-device             
+mpi                       openflow                  tap-bridge                
+visualizer                
+
+
+-- Configuring done (0.9s)
+-- Generating done (1.5s)
+-- Build files have been written to: /Users/zeelsatasiya/Documents/SJSU/3rdSem/297 Special Topics/HW1/cmpe297-f23-zeel-satasiya/ns-3-allinone/ns-3.39/cmake-cache
+1.00419	5360
+1.0093	5896
+1.01335	6432
+1.02167	7504
+1.02999	8576
+1.03831	9648
+1.04663	10720
+1.05495	11792
+1.06327	12864
+1.07159	13936
+1.07991	15008
+1.08823	16080
+1.09655	17152
+1.10487	18224
+1.11319	19296
+1.12151	20368
+1.12983	21440
+RxDrop at 1.13696
+1.13815	22512
+1.1548	1040
+1.1557	1008
+1.15978	15544
+1.2472	16080
+1.3304	16616
+1.39696	17152
+RxDrop at 1.4032
+1.42104	1040
+1.42194	1008
+1.42602	11792
+RxDrop at 1.43648
+1.45432	1040
+1.45522	1008
+1.4593	8040
+1.47184	8576
+1.7048	9112
+2.06256	9648
+RxDrop at 2.5255
+RxDrop at 2.53472
+2.54426	1544
+2.5493	1040
+2.55434	536
+2.55932	6432
+2.55932	6968
+RxDrop at 2.60038
+2.6117	536
+2.61673	4824
+2.61673	5360
+2.96944	5896
+5.68176	6432
+RxDrop at 5.79616
+5.814	1040
+5.8149	1008
+5.81898	4288
+5.81898	4824
+5.82491	5360
+6.26416	5896
+RxDrop at 6.44512
+6.46296	1040
+6.46386	1008
+6.46794	3752
+6.46794	4288
+6.8216	4824
+RxDrop at 7.35942
+7.37074	536
+7.37577	3216
+7.37577	3752
+RxDrop at 7.38528
+7.40312	1040
+7.40402	1008
+7.4081	2144
+7.4081	2680
+8.03632	3216
+RxDrop at 8.1415
+8.15282	536
+8.15785	2144
+8.15785	2680
+8.51056	3216
